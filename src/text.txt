@@ -1,0 +1,20 @@
+// import React from 'react'
+// import { Route, Routes } from 'react-router-dom'
+// import Home from './Component/Home'
+// import Header from './Component/Pages/Header'
+// import SplashScreen from './Component/Pages/Splash'
+
+// const App = () => {
+//   return (
+//    <>
+//    <Header />
+//    <Routes>
+//     <Route path='/' element={<SplashScreen />} />
+//     <Route path='/home' element={<Home />} />
+//    </Routes>
+   
+//    </>
+//   )
+// }
+
+// export default App
