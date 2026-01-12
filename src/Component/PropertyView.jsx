@@ -31,7 +31,7 @@ export default function PropertyDetails() {
   const galleryOpacity = useTransform(scrollY, [0, 400], [1, 0.9]);
 
   useEffect(() => {
-    fetch(`https://realestaterniback.onrender.com/api/properties/${id}`)
+    fetch(`http://localhost:5000/api/properties/${id}`)
       .then(res => res.json())
       .then(data => {
         if (data.success) setProperty(data.data);

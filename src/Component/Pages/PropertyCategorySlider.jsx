@@ -49,7 +49,7 @@ export default function PropertyListing() {
 
   /* ---------------- FETCH PROPERTIES ---------------- */
   useEffect(() => {
-    fetch(`https://realestaterniback.onrender.com/api/properties`)
+    fetch(`http://localhost:5000/api/properties`)
       .then((res) => res.json())
       .then((res) => {
         const normalized = (res?.data || [])
